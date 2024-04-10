@@ -1,0 +1,52 @@
+.UIbutton_button__pztd5 {
+    min-width: 100px;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: var(--font-size-small);
+    font-family: var(--font-family-small);
+    font-weight: var(--font-bold);
+    background: none;
+    outline: none;
+
+    transition: var(--transition) ease;
+    cursor: pointer;
+}
+
+.UIbutton_button__pztd5:disabled,
+.UIbutton_button__pztd5:disabled:hover{
+    color: var(--color-grey);
+    border-color: var(--color-grey);
+    cursor: auto;
+    background-color: transparent;
+}
+
+.UIbutton_dark__5tUXc{
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
+}
+
+.UIbutton_light__WttGF{
+    border: 1px solid var(--color-black);
+    color: var(--color-black);
+}
+
+.UIbutton_dark__5tUXc:hover{
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+.UIbutton_light__WttGF:hover{
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+:root{
+    --font-size-small: 14px;
+    --font-family-small: sans-serif;
+    --font-bold: 600;
+    --transition: .4s;
+    --color-white:#fff;
+    --color-black:#000;
+    --color-grey:#9c9c9c;
+}
+
+/*# sourceMappingURL=Components-UI-UIbutton-UIbutton-stories.8115d10f.chunk.css.map*/
