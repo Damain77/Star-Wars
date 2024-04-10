@@ -1,5 +1,6 @@
 {
   "name": "react-star-wars",
+  "homepage": "https://damain77.github.io/Star-Wars/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
